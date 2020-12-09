@@ -1,0 +1,1691 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1110.1623                               -->
+<workbook original-version='18.1' source-build='2020.3.3 (20203.20.1110.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='台灣電力公司_各縣市住宅、服務業及機關用電統計資料(123)' inline='true' name='federated.13nilsu1du2tvb16gw0zl0eiwgh0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='123' name='excel-direct.1o4l9do1xrxutr18kkd3g12i4uc9'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Downloads/123.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1o4l9do1xrxutr18kkd3g12i4uc9' name='台灣電力公司_各縣市住宅、服務業及機關用電統計資料' table='[&apos;台灣電力公司_各縣市住宅、服務業及機關用電統計資料$&apos;]' type='table'>
+          <columns gridOrigin='A1:L23:no:A1:L23:0' header='yes' outcome='6'>
+            <column datatype='string' name='日期' ordinal='0' />
+            <column datatype='string' name='縣市' ordinal='1' />
+            <column datatype='integer' name='住宅部門售電量(度)' ordinal='2' />
+            <column datatype='real' name='住宅部門用電佔比(%)' ordinal='3' />
+            <column datatype='integer' name='服務業部門(含包燈)(度)' ordinal='4' />
+            <column datatype='real' name='服務業部門(含包燈)用電佔比(%)' ordinal='5' />
+            <column datatype='integer' name='農林漁牧售電量(度)' ordinal='6' />
+            <column datatype='real' name='農林漁牧用電佔比(%)' ordinal='7' />
+            <column datatype='integer' name='工業部門售電量(度)' ordinal='8' />
+            <column datatype='real' name='工業部門用電佔比(%)' ordinal='9' />
+            <column datatype='integer' name='合計售電量(度)' ordinal='10' />
+            <column datatype='real' name='縣市用電佔比(%)' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1o4l9do1xrxutr18kkd3g12i4uc9' name='台灣電力公司_各縣市住宅、服務業及機關用電統計資料' table='[&apos;台灣電力公司_各縣市住宅、服務業及機關用電統計資料$&apos;]' type='table'>
+          <columns gridOrigin='A1:L23:no:A1:L23:0' header='yes' outcome='6'>
+            <column datatype='string' name='日期' ordinal='0' />
+            <column datatype='string' name='縣市' ordinal='1' />
+            <column datatype='integer' name='住宅部門售電量(度)' ordinal='2' />
+            <column datatype='real' name='住宅部門用電佔比(%)' ordinal='3' />
+            <column datatype='integer' name='服務業部門(含包燈)(度)' ordinal='4' />
+            <column datatype='real' name='服務業部門(含包燈)用電佔比(%)' ordinal='5' />
+            <column datatype='integer' name='農林漁牧售電量(度)' ordinal='6' />
+            <column datatype='real' name='農林漁牧用電佔比(%)' ordinal='7' />
+            <column datatype='integer' name='工業部門售電量(度)' ordinal='8' />
+            <column datatype='real' name='工業部門用電佔比(%)' ordinal='9' />
+            <column datatype='integer' name='合計售電量(度)' ordinal='10' />
+            <column datatype='real' name='縣市用電佔比(%)' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L23:no:A1:L23:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>日期</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[日期]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>日期</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RTW_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>縣市</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[縣市]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>縣市</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RTW_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>住宅部門售電量(度)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[住宅部門售電量(度)]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>住宅部門售電量(度)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>住宅部門用電佔比(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[住宅部門用電佔比(%)]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>住宅部門用電佔比(%)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>服務業部門(含包燈)(度)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[服務業部門(含包燈)(度)]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>服務業部門(含包燈)(度)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>服務業部門(含包燈)用電佔比(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[服務業部門(含包燈)用電佔比(%)]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>服務業部門(含包燈)用電佔比(%)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>農林漁牧售電量(度)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[農林漁牧售電量(度)]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>農林漁牧售電量(度)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>農林漁牧用電佔比(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[農林漁牧用電佔比(%)]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>農林漁牧用電佔比(%)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>工業部門售電量(度)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[工業部門售電量(度)]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>工業部門售電量(度)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>工業部門用電佔比(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[工業部門用電佔比(%)]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>工業部門用電佔比(%)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>合計售電量(度)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[合計售電量(度)]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>合計售電量(度)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>縣市用電佔比(%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[縣市用電佔比(%)]</local-name>
+            <parent-name>[台灣電力公司_各縣市住宅、服務業及機關用電統計資料]</parent-name>
+            <remote-alias>縣市用電佔比(%)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='台灣電力公司_各縣市住宅、服務業及機關用電統計資料' datatype='table' name='[__tableau_internal_object_id__].[台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Taiwan&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='台灣電力公司_各縣市住宅、服務業及機關用電統計資料' id='台灣電力公司!各縣市住宅、服務業及機關用電統計資料_C2368651539140CA9F8EE46DBAC91F8F'>
+            <properties context=''>
+              <relation connection='excel-direct.1o4l9do1xrxutr18kkd3g12i4uc9' name='台灣電力公司_各縣市住宅、服務業及機關用電統計資料' table='[&apos;台灣電力公司_各縣市住宅、服務業及機關用電統計資料$&apos;]' type='table'>
+                <columns gridOrigin='A1:L23:no:A1:L23:0' header='yes' outcome='6'>
+                  <column datatype='string' name='日期' ordinal='0' />
+                  <column datatype='string' name='縣市' ordinal='1' />
+                  <column datatype='integer' name='住宅部門售電量(度)' ordinal='2' />
+                  <column datatype='real' name='住宅部門用電佔比(%)' ordinal='3' />
+                  <column datatype='integer' name='服務業部門(含包燈)(度)' ordinal='4' />
+                  <column datatype='real' name='服務業部門(含包燈)用電佔比(%)' ordinal='5' />
+                  <column datatype='integer' name='農林漁牧售電量(度)' ordinal='6' />
+                  <column datatype='real' name='農林漁牧用電佔比(%)' ordinal='7' />
+                  <column datatype='integer' name='工業部門售電量(度)' ordinal='8' />
+                  <column datatype='real' name='工業部門用電佔比(%)' ordinal='9' />
+                  <column datatype='integer' name='合計售電量(度)' ordinal='10' />
+                  <column datatype='real' name='縣市用電佔比(%)' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='3月內各部門售電量-長條圖'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='台灣電力公司_各縣市住宅、服務業及機關用電統計資料(123)' name='federated.13nilsu1du2tvb16gw0zl0eiwgh0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13nilsu1du2tvb16gw0zl0eiwgh0'>
+            <column-instance column='[日期]' derivation='None' name='[none:日期:nk]' pivot='key' type='nominal' />
+            <column-instance column='[縣市]' derivation='None' name='[none:縣市:nk]' pivot='key' type='nominal' />
+            <column-instance column='[合計售電量(度)]' derivation='Sum' name='[sum:合計售電量(度):qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[合計售電量(度)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[日期]' role='dimension' type='nominal' />
+            <column datatype='string' name='[縣市]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:日期:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:合計售電量(度):qk]</rows>
+        <cols>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]</cols>
+      </table>
+      <simple-id uuid='{DF4F3B7F-6346-4CC8-BC8C-748190B54DC1}' />
+    </worksheet>
+    <worksheet name='各月各部門售電量-長條圖'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='台灣電力公司_各縣市住宅、服務業及機關用電統計資料(123)' name='federated.13nilsu1du2tvb16gw0zl0eiwgh0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13nilsu1du2tvb16gw0zl0eiwgh0'>
+            <column-instance column='[日期]' derivation='None' name='[none:日期:nk]' pivot='key' type='nominal' />
+            <column-instance column='[住宅部門售電量(度)]' derivation='Sum' name='[sum:住宅部門售電量(度):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[工業部門售電量(度)]' derivation='Sum' name='[sum:工業部門售電量(度):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[服務業部門(含包燈)(度)]' derivation='Sum' name='[sum:服務業部門(含包燈)(度):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[農林漁牧售電量(度)]' derivation='Sum' name='[sum:農林漁牧售電量(度):qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[住宅部門售電量(度)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[工業部門售電量(度)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[日期]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[服務業部門(含包燈)(度)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[農林漁牧售電量(度)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:住宅部門售電量(度):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:工業部門售電量(度):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:服務業部門(含包燈)(度):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:農林漁牧售電量(度):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[Multiple Values]</rows>
+        <cols>([federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:日期:nk] / [federated.13nilsu1du2tvb16gw0zl0eiwgh0].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{694798E5-344E-4E2C-962C-F165BBDD5044}' />
+    </worksheet>
+    <worksheet name='各縣市住宅部門售電比例-圓餅圖'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='台灣電力公司_各縣市住宅、服務業及機關用電統計資料(123)' name='federated.13nilsu1du2tvb16gw0zl0eiwgh0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13nilsu1du2tvb16gw0zl0eiwgh0'>
+            <column-instance column='[縣市]' derivation='None' name='[none:縣市:nk]' pivot='key' type='nominal' />
+            <column-instance column='[住宅部門售電量(度)]' derivation='Sum' name='[sum:住宅部門售電量(度):qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[住宅部門售電量(度)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[縣市]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]' />
+              <wedge-size column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:住宅部門售電量(度):qk]' />
+              <size column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:住宅部門售電量(度):qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2B087A74-F62B-4C74-8D99-CFF81F575F84}' />
+    </worksheet>
+    <worksheet name='各縣市住宅部門售電比例-樹狀圖'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='台灣電力公司_各縣市住宅、服務業及機關用電統計資料(123)' name='federated.13nilsu1du2tvb16gw0zl0eiwgh0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13nilsu1du2tvb16gw0zl0eiwgh0'>
+            <column-instance column='[縣市]' derivation='None' name='[none:縣市:nk]' pivot='key' type='nominal' />
+            <column-instance column='[住宅部門售電量(度)]' derivation='Sum' name='[sum:住宅部門售電量(度):qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[住宅部門售電量(度)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[縣市]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:住宅部門售電量(度):qk]' />
+              <color column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:住宅部門售電量(度):qk]' />
+              <text column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3E614217-7C3E-4261-B46A-6849CF98823E}' />
+    </worksheet>
+    <worksheet name='各縣市住宅部門售電量-長條圖'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='台灣電力公司_各縣市住宅、服務業及機關用電統計資料(123)' name='federated.13nilsu1du2tvb16gw0zl0eiwgh0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13nilsu1du2tvb16gw0zl0eiwgh0'>
+            <column-instance column='[縣市]' derivation='None' name='[none:縣市:nk]' pivot='key' type='nominal' />
+            <column-instance column='[住宅部門售電量(度)]' derivation='Sum' name='[sum:住宅部門售電量(度):qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[住宅部門售電量(度)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[縣市]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]</rows>
+        <cols>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:住宅部門售電量(度):qk]</cols>
+      </table>
+      <simple-id uuid='{69D261E5-FE2A-48C9-9A5B-C43C555534F1}' />
+    </worksheet>
+    <worksheet name='各縣市售電比例-氣泡圖'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='台灣電力公司_各縣市住宅、服務業及機關用電統計資料(123)' name='federated.13nilsu1du2tvb16gw0zl0eiwgh0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13nilsu1du2tvb16gw0zl0eiwgh0'>
+            <column-instance column='[縣市]' derivation='None' name='[none:縣市:nk]' pivot='key' type='nominal' />
+            <column-instance column='[合計售電量(度)]' derivation='Sum' name='[sum:合計售電量(度):qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[合計售電量(度)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[縣市]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:合計售電量(度):qk]' />
+              <text column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F1413886-1F68-4351-981A-0B5554BC132F}' />
+    </worksheet>
+    <worksheet name='各縣市售電量-盒鬚圖'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='台灣電力公司_各縣市住宅、服務業及機關用電統計資料(123)' name='federated.13nilsu1du2tvb16gw0zl0eiwgh0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13nilsu1du2tvb16gw0zl0eiwgh0'>
+            <column-instance column='[縣市]' derivation='None' name='[none:縣市:nk]' pivot='key' type='nominal' />
+            <column-instance column='[合計售電量(度)]' derivation='Sum' name='[sum:合計售電量(度):qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[合計售電量(度)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[縣市]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:合計售電量(度):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:合計售電量(度):qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:合計售電量(度):qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{8659205D-CD4B-4A4F-AE58-DE0E2C4518B0}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='各縣市住宅部門售電量-長條圖'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:日期:nk]</field>
+            <field>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4DA346ED-A798-48CA-AC24-513B3A98D1CE}' />
+    </window>
+    <window class='worksheet' name='各縣市住宅部門售電比例-圓餅圖'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:住宅部門售電量(度):qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2AAC4C38-535C-4E26-87B2-87AF42F0DC3F}' />
+    </window>
+    <window class='worksheet' name='各縣市住宅部門售電比例-樹狀圖'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[sum:住宅部門售電量(度):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D7005E93-DF19-4AA0-988C-4D8990A54116}' />
+    </window>
+    <window class='worksheet' name='各月各部門售電量-長條圖'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[:Measure Names]</field>
+            <field>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:日期:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{57DF893C-25F1-41C4-8143-38FB55628666}' />
+    </window>
+    <window class='worksheet' name='各縣市售電比例-氣泡圖'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6BE356BE-CA7C-4CDC-93F0-E14FE6C0E804}' />
+    </window>
+    <window class='worksheet' name='各縣市售電量-盒鬚圖'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9605A72B-9A2F-4C46-959B-A47FBF4B8655}' />
+    </window>
+    <window class='worksheet' maximized='true' name='3月內各部門售電量-長條圖'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:日期:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:日期:nk]</field>
+            <field>[federated.13nilsu1du2tvb16gw0zl0eiwgh0].[none:縣市:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{27EE7FB7-10F7-4C42-8A42-03C704CAD666}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='3月內各部門售電量-長條圖' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='各月各部門售電量-長條圖' width='192'>
+      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
+      B8jLeFT41/EMAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='164' name='各縣市住宅部門售電比例-圓餅圖' width='164'>
+      iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAQ60lEQVR4nO2dW2wbZ3aAP9sSKYmkJNKmKEu2JVGWLMmX1JbiONuNvY67udUviyzQpEEL
+      dJGgN7Rpu8jTFnkI+lIs0HZRFOliWxQoUDQPCbCb3QabNnZj59Y0G8eO3USWrItN60ZdKEri
+      RaQk9oEeakiOJFIixZ/U+QADxMxw5hfw+Zz/nPlnuCsWi8UQBEXYXegBCIIeEVJQChFSUAoR
+      UlAKEVJQChFSUAoRUlAKEVJQChFSUAoRUlAKEVJQChFSUAoRUlAKEVJQChFSUAoRUlAKEVJQ
+      ChFSUAoRUlAKEVJQChFSUAoRUlAKEVJQChFSUAoRUlAKEVJQChFSUAoRUlAKEVJQChFSUAoR
+      UlAKEVJQChFSUAoRUlAKEVJQChFSUAoRUlAKEVJQChFSUAoRUlAKEVJQChFSUAoRUlAKEVJQ
+      ChFSUAoRUlAKEVJQirJCD6CY8foC8X+zAQBuDnpXt88G+Ob503z43/9LXa2FOnv8H4DLbqGu
+      1sIxd13Bxq4qImSWeH0Bbg15ufT5ELeGvBkd7/UFYMh4/7GWOo6563j+wrEcj7Q42RWLxWKF
+      HoTqREMB/PcH+dkXk7x9fWMJNZ566lF++ctPMj6+zm7h8VMtHH8g6U5EIuQ6+O8PMdV/k2go
+      npIrAgC78nY9ry/AG5du8QZxOZ+/cIzHT7Xk7XoqIkWNAQu+Kd758V/Te/WdhIwA3a7tG4PX
+      F+BHb37KSz/8ObcGM4/KxY5ESB3RwCKez3t5/z/+DoBgrZ2aWkfSMe4aGPRv35i8vgA/+KfL
+      HGup4+XvPpIojEoViZDERfTevE/f29cJjYRxOo4AMDfrwz87k3RsT11hpty3hry89MOf8++X
+      bhXk+tvFjhcyGlhk6NLXTN4aSWxrrO9JfJ6cGE06Ppu0HQiEtzy+VN64dKuk0/iOFnL02jB9
+      b18nGlhM2m422RJSesdH06Jkd4ELYC2NX762Ri+piNmRQgZ9C/ReusFnb10lGokaHnOgvgez
+      yQakR8nWGjU6ZT9681N+9OanhR5GTtlxQgZ9C9y+fIPbl28A4B0ZX/NYfZRcDIcS27ez2t6I
+      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
+      HfY1o+WzDz2X8ZgKTUkKaWltxNOzL1G0aOQjRW+VE9e+THyuqazk0DpSXplyrB5rq+a8FZq+
+      +jCxzag9dLb1cbrqj+Vh5PmhJIUEuPDk04nP+UzRevSLcjNFn7YhvTep5/XBpjQpzzU3Jipw
+      Da3gaXQcKKroCCUspN3h4MU//pO8p2g9mRY0qaRKmdqb1PP6YBNfza3eMjSbzfza3mq673yS
+      mFcCNDoO8Kff+j5Oa4F/1DtLSlZIAPfhw7zyZ99XKkUboU/bYNyb1PNab1ualKdamnjIcyMh
+      5VH7SQ5ai6OQ0VPSQgKwfz+0tW/LpbKpsPVY5hcSLSCNE41r91MhXUqAYx2dPDY7xOk9B/mG
+      S9371etR+kICPHYO6vfn/TLZVNipHP/8Rto2o96kHiMpW448zmNHX9r0OArNzhAS4JmLeZfS
+      aFFupugb5Ylta/Qm9eil3G3ai6XtlU2PQQV2jpAAZ8+B1ZaXUy+FwpsuajRSixtYuzep57Xe
+      NnoXm6kqchlhpwlptcEzv5mXSLlVGSG9UQ7r9yY1XDYbp8/8JbtN+7Y8hkKzs4SEB1JehJOn
+      cnrazRY0qaRW3LB+b/KF7of5l9/+3ZxcWwV2npAaJ7vjxU6O2EpBo8cobUN6b9Jls/FC98O8
+      0HM6J9dVhZ0rJMTbQU9fLPQo0jCSUt+bdNls/Pm3LpScjFBCz9RsiYV56O+DL65t6uvrPWW4
+      GQI2Kz99zni5mHmPiRe6T+Oy5ac4KzRF/yqVnGC1xVN4WztcvQLjYxt/J49ojfKJ/auLJA7Z
+      HTzW0sYhu2OdbxY/EiGNWJjPSsz1HnvdLBP7Xbx38QlqKiq52HWi5EXUkAhphFaJj43BB1fi
+      gq5DripsPY1LK1zsOsHx/Y05P7fKSITMBG2O2d9vKKfRe3w2Q5nTieXcWcxdnVR0dW35fMWI
+      CJktmpxjY4mUPvrBJ5tqjJc5nexx7sN67hzmrk7KnOvfu94JiJBbYWEe5hcI9PWzNDkJwNLk
+      JEuTkyxPTrE0OZmQTpNNi3x7nPt2bBRcDxFSUIqd3RgXlEOEFJRChBSUQoQUlEKEFJRChBSU
+      QoQUlEKEFJRChBSUQoQUlEKEFJRChBSUQoQUlEKEFJRChBSUQoQUlEKEFJRChBSUQoQUlEKE
+      FJRChBSUQoQUlEKEFJRChBSUQoQUlEKEFJRChBSUQoQUlEKEFJRChBSUQoQUlEKEFJRChBSU
+      QoQUlEKEFJRChBSU4v8BHm8IaNyrUFsAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='各縣市住宅部門售電比例-樹狀圖' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='各縣市住宅部門售電量-長條圖' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='各縣市售電比例-氣泡圖' width='192'>
+      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
+      1QAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='各縣市售電量-盒鬚圖' width='134'>
+      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
+      hv74+VjhcGAFhqKJJi19BwIBmM1mnX8ZoN7ZHhUFALjOeHGwrRsLbFm67ddwTyWffbAT1558
+      CU/PnYbJJgCmyZg292m89OQ17PzgMwCAKfN+ZLafw/n4TnVMuPI5QcKhGzCZbl2DMJlMuBEK
+      Rx5YCvBIciM+dPpjO7m7iOHCyJ03H+6arag9cQWRDMK4cqIWW2vcmD8vd3ArCxauXIjLOyrg
+      aDiLK4O9hP1edHmD8Zn4bcRr5dOAJ58arp9qRHVNLY4Or3w+jNLnlqJ4zhSMPJaEvQfx/lt7
+      sL/Ni6AGJJtnIuuhojGtfMbz3+6FORn4pc7/djdgGLERqzCAwRfqHHHDddqD/NkWlBTwhToJ
+      K5ZhxIPhzjFoYjAMEjEMEjEMEjEMEjEMEjEMEjEMEjEMEjEMEhnvhToGpPim5rsH39RMccU3
+      NZOIL+2jhMIwEly8XtrHMBJcic0Ke05G1Fgs3tTMq5Jx4kv7SMSX9tE9iWGQiGGQiGGQiGGQ
+      iGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQ
+      iGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQiGGQyHC3pXBVrcKW
+      VvlrmWUbsL705ifqatdPobG6BrVH3fCFAFNKOrJtxWO6t7vR3SOf89mDxldfR89z6/FsVuQP
+      rnXW4pVfN2LaM6uwtOgrmDoJCPu9aPvHHjSrp7Dyif/+kcxG/5xPwx0xROf34RN8Ez/NGjoK
+      9KBx10eY/sKv8KI9bXizSWnpmLtgJebGZ5YJ5R44x+jDgb/uw+zFRfjS0JDnAJp9xVg0IgqK
+      9h9Qh9dpm0ETwwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
